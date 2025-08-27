@@ -1,0 +1,10 @@
+{
+  "src": [
+    "pages/SIPDemo",
+    "pages/Diagram",
+    "pages/Login",
+    "pages/Index",
+    "pages/WebComponent",
+    "pages/ForgetPassword"
+  ]
+}

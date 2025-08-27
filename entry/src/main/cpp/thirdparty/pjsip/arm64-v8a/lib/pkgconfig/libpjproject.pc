@@ -1,0 +1,14 @@
+# Package Information for pkg-config
+
+prefix=/home/user1/work/final_pjsip/ohos_pjsip/out/arm64-v8a
+exec_prefix=${prefix}
+libdir=/home/user1/work/final_pjsip/ohos_pjsip/out/arm64-v8a/lib
+includedir=/home/user1/work/final_pjsip/ohos_pjsip/out/arm64-v8a/include
+
+Name: libpjproject
+Description: Multimedia communication library
+URL: http://www.pjsip.org
+Version: 2.15.1
+Libs: -L/home/user1/work/final_pjsip/ohos_pjsip/out/arm64-v8a/lib -lpjsua2 -lstdc++ -lpjsua -lpjsip-ua -lpjsip-simple -lpjsip -lpjmedia-codec -lpjmedia-videodev -lpjmedia-audiodev -lpjmedia -lpjnath -lpjlib-util -lpj
+Libs.private:  -lsrtp -lresample -lgsmcodec -lspeex -lilbccodec -lg7221codec -lyuv  -lm -lrt -lpthread -lohaudio -lohcamera -limage_receiver -lnative_image -lohimage         -lnative_buffer -lhilog_ndk.z -lnative_media_codecbase         -lnative_media_core -lnative_media_vdec -lc++_shared         -lnative_window -lEGL -lGLESv3 -lnative_media_venc
+Cflags: -I/home/user1/work/final_pjsip/ohos_pjsip/out/arm64-v8a/include -DPJ_AUTOCONF=1  -DPJ_IS_BIG_ENDIAN=0 -DPJ_IS_LITTLE_ENDIAN=1

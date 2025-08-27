@@ -1,0 +1,48 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "description"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "label"
+    },
+    {
+      "name": "permission_microphone",
+      "value": "允许应用在录制音频场景中使用麦克风。"
+    },
+    {
+      "name": "microphone_permission_reason",
+      "value": "需要使用麦克风进行SIP通话，实现语音通信功能"
+    },
+    {
+      "name": "icon_font",
+      "value": "iconfont"
+    },
+    {
+      "name": "navigation_toolbar_home",
+      "value": "首页"
+    },
+    {
+      "name": "navigation_toolbar_client",
+      "value": "客户"
+    },
+    {
+      "name": "navigation_toolbar_phone",
+      "value": "电话"
+    },
+    {
+      "name": "navigation_toolbar_instrument",
+      "value": "工具"
+    },
+    {
+      "name": "navigation_toolbar_my",
+      "value": "我的"
+    }
+  ]
+}
